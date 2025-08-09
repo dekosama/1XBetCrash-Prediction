@@ -1,5 +1,25 @@
+# Core data processing (optimized versions)
 pandas==2.2.2
+numpy==1.26.4  # Explicitly specify numpy for pandas optimization
+
+# Machine learning (lightweight and compatible versions)
 scikit-learn==1.5.0
-telebot==0.0.5
+
+# Telegram bot (both sync and async versions)
+pyTelegramBotAPI==4.14.0  # More actively maintained than telebot
+aiogram==3.4.1  # Async Telegram bot framework
+aiofiles==23.2.1  # Async file operations
+
+# Web scraping (optimized versions)
 selenium==4.21.0
 webdriver-manager==4.0.1
+
+# Performance optimizations
+lxml==5.1.0  # Faster XML/HTML parsing for selenium
+urllib3==2.2.1  # Explicit version for stability
+
+# Async HTTP client (for aiogram)
+aiohttp==3.9.3
+
+# Performance monitoring
+psutil==5.9.8  # System and process monitoring
